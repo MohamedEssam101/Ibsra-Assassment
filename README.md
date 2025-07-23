@@ -5,25 +5,42 @@ A modern e-commerce web application built with Angular for browsing and purchasi
 ## 🛠️ Tech Used
 
 **Frontend:**
-- **Angular** - Frontend framework
-- **TypeScript** - Programming language
-- **Tailwind CSS** - Utility-first CSS framework
-- **PrimeNG** - UI component library
-- **PrimeIcons** - Icon library
+- **Angular** 
+- **TypeScript** 
+- **Tailwind CSS** 
+- **PrimeNG** 
+- **PrimeIcons** 
 
 **Backend:**
-- **Node.js** - Runtime environment
-- **MongoDB** - NoSQL database
+- **Express** 
+- **MongoDB** 
 
 ## 📂 Project Structure
 
+``` CLOTHINGSTORE/
+├── backend/
+│   ├── controllers/         # API controllers
+│   ├── models/             # Database models
+│   ├── routes/             # API routes
+│   ├── services/           # Business logic
+│   └── seeder/             # Database seeders
+│
+├── frontend/
+│   └── src/
+│       └── app/
+│           ├── core/       # Core services & guards
+│           │   ├── guards/
+│           │   └── services/
+│           ├── pages/      # Page components
+│           │   ├── home/
+│           │   ├── product/
+│           │   └── products/
+│           └── shared/     # Shared components
+│               ├── header/
+│               └── interfaces/
+│
+└── README.md
 ```
-Ibsra-Assessment/
-├── backend/          # Node.js backend API
-├── frontend/         # Angular frontend application
-└── README.md         # Project documentation
-```
-
 ## 📦 Installation
 
 ### Frontend Setup
